@@ -12,6 +12,7 @@ def high_or_low(guess, target):
     elif guess > target:
         print("Too high")
     else:
+        global correct 
         correct = True
         print("You guessed it!")
         
