@@ -1,7 +1,8 @@
 def factorial(n):
+    result = 1
     for i in range(1, n + 1):
-        result = result * n
-        return result
+        result = result * i
+    return result
 
-result = 1
-print (factorial(3))
+
+print (str(factorial(3)))
