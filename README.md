@@ -34,7 +34,6 @@ When n = 5, x(n) = 5
 
 x(n) can be determined with the following rule:  
 x(n) = x(n - 1) + x(n - 2)
-
 Create a program called *fibonacci_recursive.py*
 
 **Requirements**

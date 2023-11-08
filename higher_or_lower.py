@@ -12,14 +12,14 @@ def high_or_low(guess, target):
     elif guess > target:
         print("Too high")
     else:
-        correct = True #Why doesn't this get accessed?
+        correct = True
         print("You guessed it!")
         
 
 rand = random_num()
 correct = False
 
-while not correct:  
+while correct == False:
     high_or_low(guess(), rand)
     
 print("The number was " + str(rand))
